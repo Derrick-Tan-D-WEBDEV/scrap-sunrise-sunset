@@ -2,8 +2,8 @@ Scraping Sunrise Sunset with Python (Using Python-Selenium)
 ----
 This is a web scraping for sunrise and sunset written in python.
 Nowadays API service provider will charged you the money when you are using it, so the only solution is to create your own script!
-Make it free for everyone! 
-📒Note: You need to change the credentials and the chrome driver path before running it.
+Make it free for everyone! <br>
+📒Note: You need to change the credentials and the chrome driver path before running it.<br>
 📓Where to change: scarp_rt_sunrise_sunset.py
 
 How to run this
