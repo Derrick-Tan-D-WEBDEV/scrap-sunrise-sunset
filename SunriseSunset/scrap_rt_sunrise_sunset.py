@@ -16,7 +16,7 @@ def scrap_data():
     driver = webdriver.Chrome(PATH,options=options)
 
 
-    #driver get exchange rate
+    #driver get sunrise sunset website
     driver.get("https://www.timeanddate.com/sun/@1780777")
     print("Welcome to Sun Rise scraper")
     time.sleep(10)
@@ -31,9 +31,6 @@ def scrap_data():
     sunrise_today = ""
     sunset_today = ""
     for rd in raw_data:
-        # row = rd.find_elements_by_tag_name("td")
-        # print(row[0].text.splitlines()) 
-        # for r in row:
         data = rd.text.splitlines()
         data = data[0]
 
